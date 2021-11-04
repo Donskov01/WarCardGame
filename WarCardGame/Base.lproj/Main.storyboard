@@ -40,6 +40,9 @@
                                         <rect key="frame" x="82" y="200" width="106" height="45"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="dealbutton"/>
+                                        <connections>
+                                            <action selector="dealTpped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CzR-Ej-YYp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -95,6 +98,12 @@
                             <constraint firstItem="8hC-N1-R91" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="y7H-Ah-oZs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="wpC-pF-LMg" id="gPW-Jf-hqL"/>
+                        <outlet property="leftScoreLabel" destination="cxJ-AT-mVr" id="tKH-dB-HJO"/>
+                        <outlet property="rightImageView" destination="jIQ-o8-FXx" id="Brg-x7-mGQ"/>
+                        <outlet property="rightScoreLabel" destination="aEA-ln-VV7" id="Xaa-fo-OzI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
